@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 2 hole balaclava -->
+  <ThingDef ParentName="HatMakeableBase">
+    <defName>ODZ_METRO2033_2holebalcalva</defName>
+    <label>two-hole balaclava</label>
+    <description>A two hole balaclava, perfect for hiding your identity and keeping warm.</description>
+    <graphicData>
+      <texPath>Things/Headwear/Masks/2hole/Balaclava_2</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <uiIconScale>1</uiIconScale>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <recipeMaker>
+    </recipeMaker>
+    <apparel>
+      <parentTagDef>ApparelHead</parentTagDef>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Eyes</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Headwear/Masks/2hole/Balaclava_2</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Bandit</li>
+        <li>Lowtier</li>
+        <li>Midtier</li>
+        <li>Hightier</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+</Defs>
